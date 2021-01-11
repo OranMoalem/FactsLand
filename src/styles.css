@@ -1,0 +1,12 @@
+
+
+  
+
+  * {
+    margin: 0;
+    height: 100%;
+    background: -webkit-linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
+    background: -o-linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
+    background: -moz-linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
+    background: linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
+}
