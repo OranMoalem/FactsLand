@@ -1,12 +1,16 @@
-
-
-  
-
-  * {
-    margin: 0;
-    height: 100%;
-    background: -webkit-linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
-    background: -o-linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
-    background: -moz-linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
-    background: linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
+* {
+    box-sizing: border-box;
 }
+
+body {
+    margin:0;
+    height:100vh;
+    background-image:
+     linear-gradient(#297fca,#297fca),
+     linear-gradient(to bottom left,transparent 49.8%,#297fca 50%);
+    background-repeat:no-repeat;
+    background-size:50.1% 100%; /* both gradient will fill 50% width and 100% height*/
+    background-position:
+      left, /* The first one placed on the left*/
+      right /* The second one placed on the right*/
+  }
