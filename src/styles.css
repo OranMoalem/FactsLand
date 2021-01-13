@@ -1,8 +1,25 @@
 * {
     box-sizing: border-box;
+    font-family: ubuntu, sans-serif;
+}
+
+@font-face {
+    font-family: ubuntu;
+    src: url(/fonts/Ubuntu/Ubuntu-Light.ttf);
+    src: url(assets/fonts/Ubuntu/Ubuntu-Light.ttf);
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    * {
+      font-size: 8px;
+    }
+    
 }
 
 body {
+    
     margin:0;
     height:100vh;
     background-image:

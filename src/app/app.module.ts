@@ -6,12 +6,14 @@ import { LayoutComponent } from './components/layout/layout.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MenuComponent } from './components/menu/menu.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
   LayoutComponent,
   MenuComponent,
-  FooterComponent],
+  FooterComponent,
+  HomeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

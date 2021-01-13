@@ -1,0 +1,46 @@
+@font-face {
+    font-family: ubuntu;
+    src: url(/fonts/Ubuntu/Ubuntu-Light.ttf);
+}
+
+h1 {
+    font-family: ubuntu, sans-serif; 
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top:12em;
+    
+}
+
+
+
+.inner {
+    
+    text-align:center;
+    overflow: hidden;
+    padding: 1.7em;
+}
+
+.inner>h1 {
+    font-size: 7.5em;
+    animation: Slide_Up 1.4s ease; 
+}
+
+.inner>p {
+    font-size: 2em;
+    animation: Slide_Up 2.7s ease;
+     
+}
+
+@keyframes Slide_Up {
+    0% {
+        transform: translateY(250px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

@@ -25,7 +25,8 @@ aside {
 }
 
 main {
-    grid-column: span 10;
+    grid-column: span 12;
+    height: 60vh;
 }
 
 div {
