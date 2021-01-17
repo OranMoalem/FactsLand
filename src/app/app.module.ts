@@ -8,7 +8,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { FactsComponent } from './components/facts/facts.component';
-
+import {HttpClientModule} from '@angular/common/http'
 @NgModule({
   declarations: [
   LayoutComponent,
@@ -19,7 +19,8 @@ import { FactsComponent } from './components/facts/facts.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [LayoutComponent]
