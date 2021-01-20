@@ -14,4 +14,3 @@ export class FactsService {
       return observable.toPromise();
     }
   }
-  
